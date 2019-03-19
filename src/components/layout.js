@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Menu />
-        
+
         <div
           style={{
             margin: `0 auto`,
@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
         </div>
-      </> 
+      </>
     )}
   />
 )
